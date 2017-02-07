@@ -7,13 +7,14 @@
   </head>
   <body>
     <h1>
-    <input type="button" name="" value="Click to get started" onclick="">
+    <input type="button" name="" value="Click to get started" onClick="Show()">
   </h1>
-  <h2 name="LOL"></h2>
-  </body>
+  <h2 id="LOL">...</h2>
   <script type="text/javascript">
     function Show() {
-      document.getElementsByName('LOL').innerHTML = "WHY"
+      document.getElementById("LOL").innerHTML = "WHY"
     }
   </script>
+  </body>
+
 </html>
